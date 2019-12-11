@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Disable Greed Button</name>
+    <directory>disable greed button</directory>
+    <id>1934438255</id>
+    <description>--==Description==--
+
+This mod disables and disarms the arena Greed button in Greed mode that starts and stops the waves until the room is clear.
+
+This effectively means once you press the button, you have to complete all 8/9 waves (or both boss waves) uninterrupted, but the button will no longer harm you if you accidentally step on it while fighting.
+
+Works for both Greed and Greedier modes. The Lost will also not incur a reward penalty for hovering over the button.
+
+I made this because I've been playing a lot of Greedier mode lately and I got tired of getting hurt immediately after starting a wave, or trying to shoot past a room full of stonies while also kiting the spiked button. If you're the kind of player that never pauses in Greed mode, this is the mod for you.
+
+--==Compatibility==--
+
+This mod should work with any other mods that don't:
+- Alter the state of the Greed button
+- Add additional pressure plate entities to the Greed arena
+
+It does not affect the behavior of any other pressure plates.
+
+--==Known Issues==--
+
+Exiting the game or force closing it in the middle of a wave can potentially cause the button to have undefined behavior when you try to continue the save, such as being unpressable. I don't really have plans to fix this since the whole point is not quitting the waves until they're over in the first place. Starting a new run will reset the button.</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Rooms"/>
+    <tag id="Hazards"/>
+    <tag id="Tweaks"/>
+    <tag id="Removals"/>
+</metadata>
