@@ -83,6 +83,7 @@ function mod:UpdateButtonState(greed_button)
     -- can freely run over it without taking damage or pausing the wave.
     if not room:IsClear() then
         greed_button.State = 2
+        greed_button:Update()
     end
 
     -- If the room is clear and we haven't completed the nightmare wave yet,
